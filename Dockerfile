@@ -1,4 +1,4 @@
-FROM python:3.11.2-alpine
+FROM python:3.11.4-alpine
 
 LABEL "com.github.actions.name"="S3 Push"
 LABEL "com.github.actions.description"="Sync a directory to an AWS S3 Bucket"
